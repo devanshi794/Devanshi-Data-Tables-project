@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-weight: bold;
+  color: #4b0082;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.table {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.pagination-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-box button {
+  border: 1px solid #2563eb;
+  background: #ffffff;
+  color: #2563eb;
+  padding: 10px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0;
+  text-align: center;
+}
+
+.pagination-box .active {
+  background: #2563eb;
+  color: white;
+}
+
+.pagination-box button:hover {
+  background: #93c5fd;
+  color: #000;
+}
